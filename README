@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>10 tips tegen een verkoudheid</title>
+    <meta name="author" content="Bram van Baren">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body lang="nl">
+    <div class="wrapper">
+      <header>
+          <h1 class="title">10 tips tegen een verkoudheid</h1>
+        <p class="auteur">Bram van Baren</p>
+      </header>
+      <div class="container">
+      <main>
+        <section>
+          <h3>Een warme douche?</h3>
+          <p>Een warme douche ontspant je lichaam en de stoom ervan werkt als een mini-stoombad: het maakt het slijm los.</p>
+        </section>
+
+        <section>
+          <h3>Ga slapen.</h3>
+          <p>Als je verkouden bent, heeft je lichaam meer slaap nodig om te herstellen. Ga dus op tijd naar bed en zorg ervoor dat je minstens acht uur slaapt. Minder slaap komt je herstel niet ten goede.</p>
+        </section>
+
+        <section>
+          <h3>Let op drankgebruik</h3>
+          <p>Laat alcohol achterwege en drink zoveel mogelijk (lauwwarm) water of thee. Heb je veel last van keelpijn, maak dan verse gemberthee met een schijfje citroen en een klein beetje honing.</p>
+        </section>
+
+        <section>
+          <h3>Houd de hygiëne in de gaten</h3>
+          <p>Houd de hygiëne in de gaten: was regelmatig je handen en reinig zaken als deurkrukken en kranen meerdere keren per dag. Op die manier krijgt het virus niet de kans zich verder te verspreiden.</p>
+        </section>
+
+        <section>
+          <h3>Blijf we van sigaretten rook.</h3>
+          <p>Wellicht een open deur, maar toch: blijf ver weg van sigaretten en sigarettenrook. Nog los van het feit dat het bijzonder ongezond is, irriteert de rook de slijmvliezen waardoor de klachten alleen maar erger worden.</p>
+        </section>
+
+        <section>
+          <h3>neusdrupels met zoutoplossing.</h3>
+          <p>Gebruik bij een verstopte neus een neusspray met zoutoplossing. Die zijn bij elke drogist of apotheek te koop, maar je kunt het ook zelf maken. Los daartoe een afgestreken theelepel zout op in een drinkglas lauw water. Doe meerdere keren per dag een paar druppels in elk neusgat en adem dan zo diep mogelijk door de neus in.</p>
+        </section>
+
+        <section>
+          <h3>Neusspray met xylometazoline.</h3>
+          <p>Zit je neus erg verstopt, dan is een neusspray met xylometazoline aan te raden. De stof xylometazoline zorgt ervoor dat de zwelling van het slijmvlies in de neus minder wordt, waardoor je vrijer kunt ademen.</p>
+        </section>
+
+        <section>
+          <h3>Neem een stoombad.</h3>
+          <p>Als je het gevoel hebt dat je hoofd vol snot zit, kan een stoombad verlichting geven. Vul hiervoor een kom met warm water (nooit warmer dan 60 graden). Pak daarna een handdoek, gooi die over je hoofd en ga dan met je gezicht boven de dampende kom water zitten. Probeer zoveel mogelijk door de neus adem te halen.</p>
+        </section>
+
+        <section>
+          <h3>Neus ophalen.</h3>
+          <p>Je neus ophalen is beter dan je neus snuiten: met snuiten pers je namelijk snot in de bijholten en dat maakt de kans op een bijholteontsteking groter. Toch snuiten? Gebruik dan papieren zakdoekjes die je meteen na gebruik weggooit. Snuit altijd rustig en steeds één neusgat per keer.</p>
+        </section>
+
+        <section>
+          <h3>Voldoende frisse lucht.</h3>
+          <p>Zorg altijd voor voldoende frisse lucht en ventileer goed. Droge en warme lucht irriteert namelijk de slijmvliezen, waardoor de klachten erger kunnen worden. Ventileer je wel voldoende, maar is de lucht nog steeds droog? Gebruik dan luchtbevochtigers met schoon water.</p>
+        </section>
+      </main>
+    </div>
+      <footer>
+        <p>
+          &copy; Mediacollege Amsterdam 2014<br id="bron">
+          Bron: <a href="https://www.gezondheidsnet.nl/griep-en-verkoudheid/10-tips-die-je-snel-van-je-verkoudheid-verlossen">10 tips tegen een verkoudheid</a>
+        </p>
+        <div id="validatie">
+          <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+            <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+          </a>
+        </div>
+      </footer>
+   </div>
+  </body>
+</html>
+
+CSS
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(12, 129, 247);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    background-color: rgba(255, 255, 255, .7);
+    background-image: url('../img/transp.png'), url('../img/grid.png');
+    overflow: auto;
+    width: 1240px;
+    margin: 0 auto;
+    
+  }
+  header {
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .title,.auteur {
+    display: flex;
+  }
+  
+  header h1 {
+    flex: 1;
+  }
+  
+  .auteur {
+    flex: 1;
+  }
+  
+  header a {
+    color: #fff;
+  }
+  header a:hover {
+    text-decoration: none;
+    color: #aaa;
+  }
+  section {
+    background-color: rgba(30, 200, 240, 0.5);
+    width: 300px;
+    height: 300px;
+    float: left;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .Bram{
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  
+  h3 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 21px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+  footer {
+    clear: left;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+  }
+  
+  #bron{
+    padding: 10px;
+  }
+  
+  #validatie img {
+      height: 1em;
+      width: auto;
+      border: 0;
+      margin: 0 .3em;
+  }
+  
+  
+    
+
+    .container{
+        display: grid;
+        padding: 2px;
+    }
+
+    @media screen and (max-width:40em) {
+        .container{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media screen and (max-width:80em) {
+        .container{
+            padding: 2px;
+        }
+    }
